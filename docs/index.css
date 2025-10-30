@@ -8,7 +8,7 @@ body {
     display: flex;
     justify-content: center; /* center horizontally */
     align-items: center;     /* center vertically */
-    height: 100vh;           /* full screen height */
+    height: 85vh;           /* full screen height */
 }
 
 .card-profile {
