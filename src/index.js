@@ -1,0 +1,1 @@
+document.getElementById("meetMe").onclick = function () {window.location = "https://www.instagram.com/hisyamauralistiawan?igsh=dzNyNWJqYmMxdnl3"; };
