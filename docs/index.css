@@ -4,12 +4,35 @@ body {
     color: #F2E9FF;
 }
 
+.card-container {
+    display: flex;
+    justify-content: center; /* center horizontally */
+    align-items: center;     /* center vertically */
+    height: 100vh;           /* full screen height */
+}
+
 .card-profile {
-    width: 300px;
-    margin: 5px auto;
-    padding: 20px;
+    padding: 25px;
     background-color: #CBA9FF;
     border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: left;
+    box-shadow: 10px 20px 8px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.meetButton {
+    background-color: #211832; /* background color */
+    color: #CBA9FF;              /* text color */
+    border: none;              /* remove default border */
+    padding: 10px 20px;        /* spacing */
+    border-radius: 8px;        /* rounded corners */
+    cursor: pointer;           /* makes it feel clickable */
+    font-size: 16px;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
 }
