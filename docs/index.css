@@ -36,3 +36,50 @@ body {
     border-radius: 50%;
     object-fit: cover;
 }
+
+.card-footer {
+    background-color: #CBA9FF;
+    border-radius: 12px;           /* same corner rounding */
+    box-shadow: 0 4px 12px rgba(0,0,0,0.4); /* same shadow */
+    padding: 20px;                 /* internal spacing */
+    text-align: center;
+}
+
+.quote-header {
+    margin-top: 0rem;
+    margin-bottom: 10px;
+}
+
+.typing-container {
+    color: #5C3E94;
+    display: inline-flex;
+    align-items: center;
+    white-space: nowrap;
+    font-size: 1.3rem;
+    overflow: hidden;
+}
+
+.cursor {
+    color: #FFFFFF;
+    position: relative;
+    top: -2.4px;
+    left: -2px;
+    transform: scaleX(.5);
+    font-size: 1.4rem;
+    animation: blink 0.7s steps(1) infinite;
+}
+
+.quote-text {
+    font-style: italic;
+}
+
+
+.cursor.typing {
+    animation: none; /* stops blinking while typing */
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
